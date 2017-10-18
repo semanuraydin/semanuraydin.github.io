@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> HTML VE CSS</title>
+<link href="css/menubar.css" rel="stylesheet" lang="en">
+</head>
+<body style="background-color: gainsboro;" >
+<img src="images/%C3%BCst.jpg" style="margin-bottom: 0%; width: 100%; height: 150px; padding: 0 auto;">
+ 
+<ul>
+ 
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">HTML</a>
+    <div class="dropdown-content">
+      <a href="html.html">HTML NEDİR</a>
+      <a href="htmlnedir.html">HTML ETİKETLERİ</a>
+      <a href="htmletiketleri.html">ÖNEMLİ HTML ETİKETLERİ</a>
+      </div>
+      
+  </li>
+     <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">CSS</a>
+    <div class="dropdown-content">
+      <a href="cssnedir.html">CSS NEDİR</a>
+      <a href="csstemelleri.html">CSS TEMELLERİ</a>
+      <a href="cssilegorsellik.html">CSS İLE GÖRSELLİK</a>
+      </div>
+     
+  <li><a href="#news">JavaScript</a></li>
+    <li><a href="#news">JQuery</a></li>
+    <li style="float: right;"><a href="#news">Hakkında</a></li>
+</ul>
+
+    <div class="yazi h1">
+    
+        <h1>DİĞER ÖNEMLİ HTML ETİKETLERİ</h1>
+    </div>
+<div>
+    <h3>Başlıklar, Hizalama, Arka plan…</h3>
+				<p>HTML’de metinlerin başlık olarak görünmesi gerektiği <h..> etiketi ile belirleniyor. Böylece sayfayı oluştururken başlıklar net bir şekilde belirtilebilmektedir. Burada önemli olan noktalardan bir tanesi Word’de de olduğu gibi yazının ne tarafa hizalı olarak duracak olduğudur. Bir diğeri ise sayfanın arka plan rengini, tasarım yapılan projeye göre belirleme ihtiyacı olmasıdır.
+				<p>Arka plan rengi ile birlikte özellik mantığını irdelemek gerekir. Arka plan rengi belirtilirken direkt komut olarak sayfaya eklenmez. Sayfanın tamamını etkileyeceği için < body> etiketinin özelliği olarak sayfada yerini alır. Özellikler < body bgcolor=”White”> şeklinde kullanılır.
+				<p><table style="width:100%">
+  <tr>
+    <th>Etiket</th>
+    <th>Özellik</th> 
+    <th>İşlev</th>
+  </tr>
+  <tr>
+    <td>< body>..< / body></td>
+    <td>bgcolor</td>
+    <td>HTML sayfasının arka plan komutunu tanımlar. #FF0000 şeklinde hexadecimal olarak ya da doğrudan rengin adı verilerek belirtilebilir.(Black,Blue...)</td>
+  </tr>
+  <tr>
+    <td>< hx>..< / hx></td>
+    <td>align</td>
+    <td>h etiketi belirtilecek olan yazının başlık olacağını belirtir. Başlığın boyutu h’den hemen sonra 1 ile 6 arasında bir rakamla belirtilebiliyor. 1 büyük 6 en küçük başlık boyutunu ifade etmektedir.
+center,left,ya da right alt komutlarıyla yazının sayfadaki konumunu belirleyebilirsin. (x=1,2,3,4,5,6) </td> </tr>
+  <tr>
+    <td>< p></td>
+    <td>align</td>
+    <td>center,left,ya da right alt komutlarıyla paragrafın sayfadaki konumunu belirleyebilirsin.</td>
+  </tr>
+</table>
+				<p>Resim (Image)
+				<br>Sayfaya resim eklemek için img etiketi kullanılır. Bu etiket ile iligli özellikler şunlardır;
+				<p><table style="width:100%">
+						<tr>
+							<th>Etiket</th>
+							<th>Özellik</th> 
+							<th>İşlev</th>
+						</tr>
+						<tr>
+							<th rowspan="5">< img..></th>
+							<td>src</td>
+							<td>Görüntülenecek resmin yolu.</td>
+						</tr>
+						<tr>
+							<td>alt</td>
+							<td>Resmin üstüne gelindiğinde görüntülenecek açıklamayı girmeni sağlar.</td>
+						</tr>
+						<tr>
+							<td>width</td>
+							<td>Resmin enini belirler.</td>
+						</tr>
+						<tr>
+							<td>height</td>
+							<td>Resmin yüksekliğini belirler.</td>
+						</tr>
+						<tr>
+							<td>border</td>
+							<td>Resmin etrafına verilecek çerçevenin kalınlığını piksel bazında girmeni sağlar.</td>
+						</tr>
+					</table>
+				<p>Bağlantı (Link)
+				<br>Sayfalar arasında geçiş işlemleri için bağlantılar kullanılır. Bağlantılar < a.. >< / a> (anchor) etiketi ile gerçekleştirilebilir. Bağlantıları kullanarak sayfalar arasında geçiş yapabileceğin gibi sayfanın belli bölümlerinde tanımlamalar yapıp aynı sayfa içerisinde de geçiş yapabilirsin.
+				<p><table style="width:100%">
+						<tr>
+							<th>Etiket</th>
+							<th>Özellik</th> 
+							<th>İşlev</th>
+						</tr>
+						<tr>
+							<th rowspan="3">< a>....< / a></th>
+							<td>href</td>
+							<td>Bağlantının işaret ettiği hedef burada belirtilir. Bu özelliğe index.html gibi bir link yazılır ve bağlantıya tıklanıldığında kullanıcı o sayfaya yönlendirilir. Sayfa içerisinde name özelliği ile tanımlı alanlara erişilmek istendiğinde ise götürülür.</td>
+						</tr>
+						<tr>
+							<td>name</td>
+							<td>Sayfanın daha sonra erişmek için kullanılacak olan ilgili bölümünün adı bu özellik ile tanınlanıyor.</td>
+						</tr>
+						<tr>
+							<td>target</td>
+							<td>Bağlantının nerede açılacağı bu özellik ile belirtiliyor.</td>
+						</tr>
+					</table>
+				<p>Metin Yapılandırma
+				<br>HTML’de yazmış olduğun metinlerin birbirinden farklı görüntülenmesini sağlayabilirsin. Alt yazı, üst yazı vs. tipindeki yazılar oluşturmak istersen şu etiketleri kullanılabilirsin:
+				<p><table style="width:100%">
+  <tr>
+    <th>Etiket</th>
+    <th>İşlev</th>
+  </tr>
+  <tr>
+    <td>< strong>..< / strong></td>
+    <td>Koyu Yazı</td>
+  </tr>
+  <tr>
+    <td>< i>...< / i></td>
+    <td>İtalik Yazı</td> 
+</tr>
+  <tr>
+    <td>< small>...< / small></td>
+    <td>Yazı Normalden Küçük</td>
+  </tr>
+  <tr>
+    <td>< big>...< / big></td>
+    <td>Yazı Normalden Büyük</td>
+  </tr>
+  <tr>
+    <td>< sup>...< / sup></td>
+    <td>Üst yazı.</td>
+  </tr>
+  <tr>
+    <td>< sub>...< / sub></td>
+    <td>Alt yazı</td>
+  </tr>
+  <tr>
+    <td>< strike>..< / strike></td>
+    <td>Yazının üstüne bir çizgi çekmenizi sağlar.</td>
+  </tr>
+  <tr>
+    <td>< u>...< / u></td>
+    <td>alt çizgi</td>
+  </tr>
+  <tr>
+    <td>< tt>...< / tt></td>
+    <td>Monospaced yazı (harf genişlikleri aynı olan font)</td>
+  </tr>
+  <tr>
+    <td>< blockquote>..< / blockquote></td>
+    <td>Blok Yazı</td>
+  </tr>
+  <tr>
+    <td>< font>…< / font></td>
+    <td>Yazının karakterini ve özelliklerini ayarlamanıza yarar…</td>
+  </tr>
+</table>
+			<!-- </div> -->
+    </div>
+</body>
+</html>

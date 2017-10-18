@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> HTML VE CSS</title>
+<link href="css/menubar.css" rel="stylesheet" lang="en">
+</head>
+<body style="background-color: gainsboro;" >
+<img src="images/%C3%BCst.jpg" style="margin-bottom: 0%; width: 100%; height: 150px; padding: 0 auto;">
+ 
+<ul>
+ 
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">HTML</a>
+    <div class="dropdown-content">
+      <a href="html.html">HTML NEDİR</a>
+      <a href="htmlnedir.html">HTML ETİKETLERİ</a>
+      <a href="htmletiketleri.html">ÖNEMLİ HTML ETİKETLERİ</a>
+      </div>
+      
+  </li>
+     <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">CSS</a>
+    <div class="dropdown-content">
+      <a href="cssnedir.html">CSS NEDİR</a>
+      <a href="csstemelleri.html">CSS TEMELLERİ</a>
+      <a href="cssilegorsellik.html">CSS İLE GÖRSELLİK</a>
+      </div>
+     
+  <li><a href="#news">JavaScript</a></li>
+    <li><a href="#news">JQuery</a></li>
+    <li style="float: right;"><a href="#news">Hakkında</a></li>
+</ul>
+
+    <div class="yazi h1">
+    
+        <h1>HTML NEDİR?</h1>
+    </div>
+<div>
+    <h3>HTML (HyperText Markup Language)</h3>
+				<p>HTML, etiket (tag) adı verilen yapılardan oluşan,metin tabanlı bir işaretleme dilidir. HTML ile sayfada yer alacak içeriklerin (yazılar, resimler, animasyonlar, form bileşenleri), sayfanın neresinde, nasıl ve ne şekilde gösterileceği belirlenir. HTML dili, Internet Explorer veya diğer tarayıcılar (browser) tarafından yorumlanarak görsel bir içerik şeklinde sunulur. Tarayıcıların yaptığı işlem, sayfa içerisindeki bileşenleri alarak, HTML içerisinde tanımlandığı şekilde görüntülenmesini sağlamaktır.
+				<p>Microsoft Expression Web Designer ve Dreamweaver gibi web sayfası editörleri kullanılarak HTML koduyazmadan web sitesi oluşturabilmek mümkündür. Çünkü bu editörler, bir arayüzden tasarım yapma imkânıverirler. Bu araçlar sayesinde HTML kodları arka planda otomatik olarak oluşturulur.
+				<p>HTML’in bazı önemli özelliklerini şöyle sıralayabiliriz:
+				<p> HTML, Notepad gibi basit bir metin editörü ile yazılabilecek bir dildir. Yazılan kodlar, uzantısı .htm yada .html olan bir dosya olarak kaydedilirse, bu dosya bir tarayıcı tarafından görüntülenebilir. HTML dosyaları herhangi bir derleyiciye (compiler) ihtiyaç duymaz. Web sunucusu gelen HTML isteği doğrudan cevapladığı için derleme yapılmaz ve tarayıcıda sadece HTML kodlarının çözümlenmesi (parse) yeterli olur.
+				<p> HTML hatalara karşı dirençsiz bir dildir. HTML’de yazılmış bir sayfa, tamamen hatalarla dolu olsa bile tarayıcı yorumlayabileceği kısmı görüntüler. Bu da sayfaların istenilmeyen bir şekilde görüntülenmesine sebep olabilir.
+				<p> HTML iç içe yer alan etiketlerden oluşur. Bir sayfanın düzgün görüntülenebilmesi için açılan her etiketin kapatılması ve etiketlerin aralarındaki hiyerarşiye uygun bir şekilde yazılması gereklidir. Bir etiketi başlatmak için <etiket_adi> ifadesi yazılır, o etiketi bitirmek için ise </etiket_adi> ifadesi yazılır. Böylece iki ifade arasındaki kısım o etiketin etki alanı içerisindedir. Etiketlerin birçoğunda üst element - alt element (parent-child) ilişkisi bulunmaktadır ve alt elementlerin üst elementler içerisinde yer alması gerekmektedir.
+				<p> Bir HTML dosyası < html> etiketi ile başlayıp < / html> etiketi ile kapatılmalıdır.
+				<p>Aşağıda, HTML ile yazılmış basit bir web sayfası bulunmaktadır.
+				<p>
+				<br>< html>
+				<br>< head>
+				<br>< title>Sayfa Başlığı< / title>
+				<br>< / head>
+				<br>< body>
+				<br>< h1>HTML İçeriği...< / h1>
+				<br>< / body>
+				<br>< / html>
+				<p>Yukarıdaki kodlar, Notepad gibi bir metin editöründe yazılarak, uzantısı htm veya html olacak şekilde kaydedilip, bir tarayıcıda çalıştırıldığında aşağıdaki gibi bir sonuç elde edilir. Buradaki < h1> elementi yazının birinci başlık sitilinde olacağını belirlemektedir.
+				<p>
+				<img src="images/örnek1.png"/>
+				<p>Bir HTML dosyasının, standart olarak < html> etiketi ile başlayıp </ html> etiketi ile bitmesi gerekir.
+				< html> etiketinin içerisinde iki ana kısım bulunur.
+				<p>Bunlar < head> ve < body> kısımlarıdır. Bir web sayfası ile ilgili tanımlamalar, JavaScript ve CSS gibi HTML dışında yazılacak kod kısımları, < head> ve </ head> ifadeleri arasında yer almalıdır.
+				<p>< body> ise bir web sayfasının gövde kısmını oluşturur. Body kısmında web sayfasının bileşenleri (yazılar, resimler vs.) bulunmaktadır. İçerik istenilen şekilde düzenlendikten sonra </ body> ifadesi ile daha önce açılmış olan < body> etiketi kapatılır.
+				<p>
+<br>< html>
+<br>< head>
+<br>Sayfa ile ilgili tanımlamalar, JavaScript ve CSS kodları...
+<br>< / head>
+<br>< body>
+<br>Sayfanın içeriğini oluşturacak kısımlar(yazılar, resimler, vb...)
+<br>< / body>
+<br>< / html>
+				<p>
+				HTML’de şu ana kadar bahsedilen etiketlerden tabi ki çok fazlası vardır. Şimdi HTML sayfalarında sıklıkla kullanılan HTML etiketlerine göz atma sırası. Burada bahsedecek olduğumuz etiketlerle örnek yapmak istersen tek ihtiyacın olan araç Notepad olacaktır; ancak Visual Studio üzerinde yeni bir HTML sayfası oluşturup Visual Studio’nun kod tamamlama özelliğinden de faydalanabilirsin.
+			<!-- </div> -->
+    </div>
+</body>
+</html>

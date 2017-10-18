@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> HTML VE CSS</title>
+<link href="css/menubar.css" rel="stylesheet" lang="en">
+</head>
+<body style="background-color: gainsboro;" >
+<img src="images/%C3%BCst.jpg" style="margin-bottom: 0%; width: 100%; height: 150px; padding: 0 auto;">
+ 
+<ul>
+ 
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">HTML</a>
+    <div class="dropdown-content">
+      <a href="html.html">HTML NEDİR</a>
+      <a href="htmlnedir.html">HTML ETİKETLERİ</a>
+      <a href="htmletiketleri.html">ÖNEMLİ HTML ETİKETLERİ</a>
+      </div>
+      
+  </li>
+     <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">CSS</a>
+    <div class="dropdown-content">
+      <a href="cssnedir.html">CSS NEDİR</a>
+      <a href="csstemelleri.html">CSS TEMELLERİ</a>
+      <a href="cssilegorsellik.html">CSS İLE GÖRSELLİK</a>
+      </div>
+     
+  <li><a href="#news">JavaScript</a></li>
+    <li><a href="#news">JQuery</a></li>
+    <li style="float: right;"><a href="#news">Hakkında</a></li>
+</ul>
+
+    <div class="yazi h1">
+    
+        <h1>CSS TEMELLERİ</h1>
+    </div>
+<div>
+    <h3>CSS Söz Dizimi</h3>
+				<p>Bir css kuralı, 2 önemli bileşenden oluşur :
+				<br>Seçici (selector)
+				<br>Bir yada daha fazla ifade (declararation)
+				<p><img src="images/css.png" />
+				<br>Burada seçici, stil vermek istediğin normal HTML elementidir. Her ifade, bir özellik ve bir değerden oluşur. İfade içindeki özellik, değiştirmek istediğin görsel niteliktir. Her özelliğin bir değeri olmalıdır.
+				<p>Her css ifadesi, noktalı virgül (;) ile sona erer. Ayrıca ifade grubu süslü parantez ({...}) ile çevrelenir.
+				<br>p { color:Aqua; width:200; }
+				<p>Bu şekilde bir stil tanımlaması yapıldıktan sonra html içinde herhangi bir atamaya ihtiyaç yoktur. Bu stili referans alan web sayfasındaki bütün < p> elementleri, renk ve genişlik bilgisini buradan alır.
+				<h2>CSS Yorumları</h2>
+				<br>Kod yazarken olduğu gibi, css ile çalışırken de çeşitli notlar tutma ihtiyacı olabilir. İleride güncelleme yapılırken faydalı yorum satırları oluşturmak için /* ile başlayıp */ ile bitirmen gerekir.
+				<h5>id Özel Seçicisi ile Çalışmak</h5>
+			<p>Bir HTML elementine stil vermenin yanında CSS kendi özel seçicilerini oluşturmana da izin vermektedir. Bunlardan ilki id isimli seçicidir.</p>
+			<br>Tek bir elemente özel stil vermek için kullanılır.</br>
+			<br>Hazırlanan özel stil, uygulanmak istenen HTML elementinin id niteliğine verilerek kullanılır. Özel stile isim verilirken, ismin önüne # işareti konulur (#ozel gibi). Ardından HTML elemente < a id=”ozel”> şeklinde atanır.</br>
+			<h5>class Özel Seçicisi ile Çalışmak</h5>
+			<p>Birden fazla elemente aynı stili vermek için kullanılan özel seçicidir. id seçicisinin aksine class seçicisi birçok element üzerinde kullanılabilir.</p>
+			<br>Tek bir elemente özel stil vermek için kullanılır.</br>
+			<br>class seçicisi HTML class niteliğini kullanır ve önüne nokta (.) koyularak tanımlanır.</br>
+			<h5>Bir Web Sitesinde Css Kullanımı</h5>
+			<p>HTML içinde style gibi nitelikleri kullanarak bir sayfaya görsellik verilebilir. Bunun dışında bir web sitesinde css kullanmak için 2 alternatifen bahsedilebilir :</p>
+			<br>Harici Stil Şablonu (External Style Sheet)</br>
+			<br>Dahili Stil Şablonu (Internal Style Sheet)</br>
+			<p>Harici Stil Şablonu (External Style Sheet)</p>
+			<p>Bir şablon, birden fazla sayfaya atanmak istendiğinde harici stil şablonu kullanmak en efektif yoldur. Harici bir dosya olarak hazırlanan css ile bütün bir web sitesinin görüntüsünü tek bir dosyayı güncelleyerek değiştirebilirsin.</p>
+			<br>Her sayfada, css uzantılı dosyanın referansı olmalıdır. Bu, <head> etiketi içine yazılacak <link> etiketi ile mümkün olur.</br>
+			<p>Dahili Stil Şablonu (Internal Style Sheet)</p>
+			<p>Bir web sayfası, kendine özgü bir stil kullanacaksa bu şablon tercih edilir. İlgili html sayfasının <head> etiketi içerisinde stiller tanımlanır ve sadece tanımlandığı sayfa içinde kullanılır.</p>
+    </div>
+</body>
+</html>
